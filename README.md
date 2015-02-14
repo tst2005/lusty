@@ -18,13 +18,6 @@ Lusty has a depdendency on mediator\_lua, also available through luarocks.
 [OpenResty](http://www.openresty.com) is nginx + lua, and is the currently
 supported server. Apache and IIS will be coming in later versions.
 
-We also suggest you install lusty\_admin, which will help you run a
-development server and bootstrap applications. `luarocks install lusty_admin`
-will get you started. You can then call `lusty_admin init` and `lusty_admin
-server` to bootstrap and fire up OpenResty for testing. `lusty_admin bootstrap`
-will set you up with a very basic listy installation. *Bootstrap assumes OpenResty,
-lua, luarocks, mongodb, and git are installed.*
-
 ## Usage
 
 Channels control everything. Data persistance, for example, is handled through
